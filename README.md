@@ -43,7 +43,7 @@
       
       E.g., `python3 eval.py data/clean_validation_data.h5  models/sunglasses_bd_net.h5`. Clean data classification accuracy on the provided validation dataset for sunglasses_bd_net.h5 is 97.87 %.
 
-## IV. Evaluating repaired models on new test images
+## III. Evaluating repaired models on new test images
    To evaluate the any repaired model, execute `custom_eval.py` by running:  
       `python3 custom_eval.py <clean validation data directory/test image path> <good model directory> <bad model directory>`.
    Will output the correct model for clean data and 1283 for poisoned data.
