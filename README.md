@@ -2,13 +2,15 @@
 
 ```bash
 ├── data 
-    └── clean_validation_data.h5 // this is clean data used to evaluate the BadNet and design the backdoor defense
-    └── clean_test_data.h5
+    └── clean_valid.h5 // this is clean data used to evaluate the BadNet and design the backdoor defense
+    └── clean_test.h5
     └── sunglasses_poisoned_data.h5
-    └── anonymous_1_poisoned_data.h5
-    └── eyebrows_poisoned_data.h5
-    └── lipstick_poisoned_data.h5
-    └── sunglasses_poisoned_data.h5
+    └── anon_poison.h5
+    └── eyebrows_poison.h5
+    └── lipstick_poison.h5
+    └── sun_normal.h5
+    └── sun_multi.h5
+               
 ├── models
     └── sunglasses_bd_net.h5
     └── sunglasses_repaired.h5
